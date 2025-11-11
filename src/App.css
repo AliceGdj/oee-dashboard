@@ -112,9 +112,24 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring/50 mb-2;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground w-screen h-screen flex flex-col px-5 md:px-30;
+  }
+  nav {
+    @apply top-0 z-10 p-4 flex justify-center sticky bg-white;
+  }
+  nav img {
+    @apply flex-none;
+  }
+  h1 {
+    @apply text-3xl justify-center text-center sm:text-5xl;
+  }
+  h2 {
+    @apply text-2xl mt-10 flex justify-center sm:text-2xl border-4 border-gray-100;
+  }
+  td {
+    @apply border-2 border-white bg-gray-100;
   }
 }
