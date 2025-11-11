@@ -14,7 +14,9 @@ The app is designed to be accessible for Desktop and Mobile.
 ## Get started
 
 `npm i` to install the dependencies
+
 `npm run dev` to run the app locally
+
 Open `http://localhost:5173/` to see the app locally
 
 ## Brief explanation of architecture decisions
