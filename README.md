@@ -38,7 +38,7 @@ The architecture of real applications must be designed to balance clarity, maint
 5. Readability Over Complexity
    I chose simplicity when possible, favoring maintainable code over overly abstract or premature optimization.
 
-## Short Analysis (200-300 words)
+## Short Analysis
 
 Based on the data, the production line is facing three main issues:
 
